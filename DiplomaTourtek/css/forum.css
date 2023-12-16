@@ -1,0 +1,71 @@
+.form{
+    /* background: url(../img/form.jpg); */
+    /* background-repeat: no-repeat; */
+    /* width: 100vw; */
+    /* background-size: cover; */
+    /* background-position: 0 -95px; */
+    /* height: 1000px; */
+    display: grid;
+    align-items: center;
+}
+
+.form-container{
+    /* display: grid;
+    align-items: center; */
+    background: url(../img/form.jpg);
+    background-size: cover;
+    height: 1000px;
+    display: grid;
+    align-items: center;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 0.35fr;
+}
+
+.textarea-style, .input-style{
+    margin-bottom: 20px;
+}
+
+.block__1{
+    margin-bottom: 40px;
+}   
+
+.block__1>:first-child{
+    margin-bottom: 20px;
+}
+
+.form-message{
+    margin-bottom: 40px;
+}
+
+form>:last-child{
+    margin-top: 20px;
+}
+
+/* appearance - стили по умолчанию */
+/* здесь он отключает стили по умолчанию у checkbox */
+/* @supports(-webkit-appearance: none) or (-moz-appearance: none) {
+    input[type='checkbox']{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        --active: #275EFE;
+        --active-inner: #fff;
+        --focus: 2px rgba(39, 94, 254, .25);
+        --border: #BBC1E1;
+        --border-hover: #275EFE;
+        --background: #fff;
+        --disabled: #F6F8FF;
+        --disabled-inner: #E1E6F9;
+    }
+}
+
+.checkbox-style{
+    width: 38px;
+    border-radius: 10px;
+
+} */
+
+
+

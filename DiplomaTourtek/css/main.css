@@ -1,0 +1,142 @@
+
+
+/*************************************************************************************************block-1*/
+.main-cont__block-1{
+    background: var(--blue_color);
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+.block-cont__1{
+    grid-row:2;
+}
+
+.block-cont__1>:first-child{
+    position: relative;
+    bottom: 25px;
+}
+
+.block-cont__1 p, .block-cont__1 h1{
+    color: var(--white_color);
+}
+
+.block-cont__1__h{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.block-cont__1__h__btn p{
+    position: relative;
+    left: 38px;
+    bottom: 20px;
+}
+
+
+
+/*************************************************************************************************block-2*/
+.main-cont__block-2{
+    height: 500px;
+}
+/*************************************************************************************************block-3*/
+.main-cont__block-3{
+    height: 1000px;
+    width: 100%;
+    background: var(--blue_color);
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+
+.style-margin__block-3{
+    margin-right: 0px !important;
+}
+
+.block-cont__3{
+    display: grid;
+    align-items: center;
+}
+
+.block-cont__3-office{
+    background: url(../img/office.png);
+    background-size: cover;
+    background-position: -360px;
+    grid-column: 2;
+}
+
+.block-cont__3-description h1, .block-cont__3-description p{
+    color: var(--white_color);
+}
+
+.description-cont{
+    width: 400px;
+}
+
+.description-cont p{
+    font-size: var(--header_3);
+    line-height: 25px;
+}
+
+.block-cont__3-description{
+    height: 55%;
+    display: grid;
+    /* grid-template-rows: repeat(3, 1fr); */
+    align-content: center;
+    grid-row-gap: 40px;
+}
+/*************************************************************************************************block-4*/
+.main-cont__block-4{
+    height: 740px;
+}
+
+.block-cont__4-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+._4-cards-cont{
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-rows: 1fr;
+    justify-items: stretch;
+
+}
+
+.card-cont{
+    height: 264px;
+    width:  254px;
+    text-align: center;
+    grid-row: 1;
+}
+
+.card-cont p{
+    margin: 5px 0;
+    
+}
+
+.card-style{
+    background: url(../img/moscow.jpg);
+    background-size: cover;
+    background-position: 0 -65px;
+    height: 264px;
+    width: 254px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-style div{
+    height: 70px;
+    width: 70px;
+    background: var(--white_color);
+    font-size: var(--header_2);
+    font-family: var(--weight_bold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    box-shadow: 0px 2px 4px 0px var(--shadow_color);
+}
+/*************************************************************************************************block-5*/

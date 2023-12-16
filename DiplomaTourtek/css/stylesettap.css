@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    color: var(--black_color);
+} 
+
+html{
+    --white_color: #ffffff;
+    --black_color: #222222;
+    --blue_color: #3262E0;
+
+    --gray_color:#b9b9b9;
+    --blackgray_color:#959595;
+    --shadow_color: rgba(82, 82, 82, 0.1);
+
+    --header_1: 50px; /*Bold*/
+    --header_2: 24px; /*Medium*/
+    --header_3: 16px; /*Regular*/
+    --header_4: 12px; /*Regular*/
+    --header_5: 10px; /*Regular*/
+
+    --header_space: 2px;
+
+    --header_adap_h1_768: 45px;
+    --header_adap_h1_480: 40px;
+
+    --header_adap_h3_480: 14px;
+    
+    --weight_bold: "Rubik Bold";
+    --weight_medium: "Rubik Medium";
+    --weight_regular: "Rubik Regular";
+    --weight_light: "Rubik Light";
+
+    --res_mobile:320px; /*320-480*/
+    --res_tablet:481px; /*481-768*/
+    --res_laptop:769px; /*769-1024*/
+    --res_pc:1025; /*1025-1200*/
+    --res_tv:1201; /*1200<*/
+
+    font-family: "Rubik Regular";
+}
+
+@font-face {
+    font-family: "Rubik Bold";
+    src: url(../font/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Rubik Medium";
+    src: url(../font/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Rubik Regular";
+    src: url(../font/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rubik Light";
+    src: url(../font/Rubik-Light.ttf);
+}
